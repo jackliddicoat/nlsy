@@ -1,0 +1,200 @@
+E80431.00    [INCARC_TOTNUM]                                Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NUMBER OF INCARCERATIONS
+ 
+Total number of separate incarcerations reported by the respondent.
+ 
+    7993           0: No incarcerations
+     745           1 TO 2: incarcerations
+     163           3 TO 4: incarcerations
+      42           5 TO 6: incarcerations
+      12           7 TO 8: incarcerations
+       1           9 TO 10: incarcerations
+       1          11 TO 12: incarcerations
+       0          13 TO 14: incarcerations
+       0          15 TO 16: incarcerations
+       0          17 TO 18: incarcerations
+       0          19 TO 20: incarcerations
+  -------
+    8957
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      27
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             11        Mean:                  .2
+ 
+Lead In: E80430.00[Default]
+Default Next Question: E80432.00
+--------------------------------------------------------------------------------
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05364.01    [KEY!BDATE_M]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+     816           1: January
+     693           2: February
+     760           3: March
+     659           4: April
+     689           5: May
+     720           6: June
+     762           7: July
+     782           8: August
+     839           9: September
+     765          10: October
+     763          11: November
+     736          12: December
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             12        Mean:                6.56
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: None.
+Default Next Question: R05364.02
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+R11930.00    [SIDCODE]                                      Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             HOUSEHOLD IDENTIFICATION CODE
+ 
+COMMENT: HOUSEHOLD IDENTIFICATION CODE
+ 
+       0           0
+    1149           1 TO 999
+    1194        1000 TO 1999
+    1208        2000 TO 2999
+    1204        3000 TO 3999
+    1213        4000 TO 4999
+    1205        5000 TO 5999
+    1226        6000 TO 6999
+     585        7000 TO 7999
+       0        8000 TO 8999
+       0        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           7477        Mean:             3769.16
+ 
+Lead In: R11929.02[Default]
+Default Next Question: R11933.00
+--------------------------------------------------------------------------------
+R98296.00    [ASVAB_MATH_VERBAL_SCORE_PCT]                  Survey Year: 1999
+  PRIMARY VARIABLE
+
+ 
+             ASVAB MATH_VERBAL SCORE PERCENT
+ 
+To calculate the ASVAB_MATH_VERBAL_SCORE_PCT, NLS Program staff first grouped 
+respondents into three-month age groups.  That is, the oldest cohort included 
+those born from January through March of 1980, while the youngest were born from
+October through December 1984 (a total of 20 cohorts, with an average of about 
+350 respondents per cohort).  Custom sampling weights (computed for the sample 
+of 7,093 respondents who have scores on all four exams) were assigned for each 
+respondent's scores.  Within each three-month age group and using the sampling 
+weights, we assigned percentiles for the theta scores for the tests on 
+Mathematical Knowledge (MK), Arithmetic Reasoning (AR), Word Knowledge (WK), and
+Paragraph Comprehension (PC) based on the weighted number of respondents scoring
+below each score.  We added the percentile scores for WK and PC to get an 
+aggregate Verbal score (V) for which an aggregated intra-group, internally 
+normed, percentile was then computed.  NLS Program staff then added the 
+percentile scores for MK, AR and two times the aggregated percentile for V.  
+Finally, within each group we computed a percentile score, using the weights, on
+this aggregate score, yielding a final value between zero and 99.
+ 
+COMMENT: USERS SHOULD NOTE THAT, ALTHOUGH THE FORMULA IS SIMILAR TO THE AFQT 
+SCORE GENERATED BY THE DEPARTMENT OF DEFENSE FOR THE NLSY79 COHORT, THIS 
+VARIABLE REFLECTS WORK DONE BY NLS PROGRAM STAFF AND IS NEITHER GENERATED NOR 
+ENDORSED BY DOD.  FOR MORE DETAILS, USERS SHOULD READ THE NLSY97 USER'S GUIDE 
+SECTION ON THE ADMINISTRATION OF THE CAT-ASVAB, ASVAB_MATH_VERBAL SCORE_PCT.
+ 
+NOTE: Please see appendix 10 in the codebook supplement for more information on 
+the ASVAB.
+NOTE:  3 IMPLIED DECIMAL PLACES
+ 
+      20           0
+      85           1 TO 999: .001-.999
+    1728        1000 TO 19999: 1.000-19.999
+    1509       20000 TO 39999: 20.000-39.999
+    1332       40000 TO 59999: 40.000-59.999
+    1247       60000 TO 79999: 60.000-79.999
+    1172       80000 TO 100000: 80.000-100.000
+  -------
+    7093
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7093   VALID SKIP(-4)    1891     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:         100000        Mean:            45317.19
+ 
+Lead In: R97127.00[Default]
+Default Next Question: R97128.00

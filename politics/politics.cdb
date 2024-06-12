@@ -1,0 +1,204 @@
+R00001.00    [PUBID]                                        Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             PUBID, YOUTH CASE IDENTIFICATION CODE
+ 
+COMMENT: YOUTH CASE IDENTIFICATION CODE
+ 
+       0           0
+     998           1 TO 999
+     999        1000 TO 1999
+     997        2000 TO 2999
+     996        3000 TO 3999
+     998        4000 TO 4999
+     996        5000 TO 5999
+     994        6000 TO 6999
+     994        7000 TO 7999
+     989        8000 TO 8999
+      23        9000 TO 9999
+  -------
+    8984
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:           9022        Mean:              4504.3
+ 
+Lead In: R72976.00[Default]
+Default Next Question: R05363.00
+--------------------------------------------------------------------------------
+R05364.02    [KEY!BDATE_Y]                                  Survey Year: 1997
+  PRIMARY VARIABLE
+
+ 
+             KEY!BDATE, RS BIRTHDATE MONTH/YEAR (SYMBOL)
+ 
+COMMENT: Birthdate of Youth
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8984   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:           1980        Max:           1984        Mean:             1982.01
+ 
+Earliest (NonMissing): JANUARY/1980
+Latest   (NonMissing): DECEMBER/1984
+ 
+Lead In: R05364.01[Default]
+Default Next Question: R05366.00
+--------------------------------------------------------------------------------
+S75143.00    [CV_HIGHEST_DEGREE_0607]                       Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST DEGREE RECEIVED PRIOR TO THE 06/07 ACAD YEAR
+ 
+The highest degree received prior to the start of the 2006/2007 academic school 
+year.
+ 
+     963       0 None
+     758       1 GED
+    4177       2 High school diploma (Regular 12 year program)
+     394       3 Associate/Junior college (AA)
+    1163       4 Bachelor's degree (BA, BS)
+      33       5 Master's degree (MA, MS)
+       2       6 PhD
+      12       7 Professional degree (DDS, JD, MD)
+  -------
+    7502
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      57
+TOTAL =========>    7559   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1425
+ 
+Min:              0        Max:              7        Mean:                2.03
+ 
+Lead In: S75142.00[Default]
+Default Next Question: S75213.00
+--------------------------------------------------------------------------------
+S86469.00    [YTEL-11A]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             GOVERNMENT RESPONSIBILITY - PROVIDE JOBS FOR EVERYONE
+ 
+- provide a job for everyone who wants one?
+ 
+UNIVERSE: R is in sample group 2
+ 
+NOTE: These next questions are about how you would like society to work.
+ 
+On the whole, do you think it should or should not be the government's 
+responsibility to...
+ 
+     454       1 Definitely should be
+     617       2 Probably should be
+     462       3 Probably should not be
+     300       4 Definitely should not be
+  -------
+    1833
+ 
+Refusal(-1)            5
+Don't Know(-2)        56
+TOTAL =========>    1894   VALID SKIP(-4)    5665     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                2.33
+ 
+Lead In: S86459.00[2:2]
+Default Next Question: S86470.00
+--------------------------------------------------------------------------------
+S86473.00    [YTEL-11E]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             GOVERNMENT RESPONSIBLITY - PROVIDE INDUSTRY WITH HELP
+ 
+- provide industry with the help it needs to grow?
+ 
+UNIVERSE: R is in sample group 2
+ 
+NOTE: These next questions are about how you would like society to work.
+ 
+On the whole, do you think it should or should not be the government's 
+responsibility to...
+ 
+     778       1 Definitely should be
+     746       2 Probably should be
+     216       3 Probably should not be
+      75       4 Definitely should not be
+  -------
+    1815
+ 
+Refusal(-1)            6
+Don't Know(-2)        73
+TOTAL =========>    1894   VALID SKIP(-4)    5665     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                1.77
+ 
+Lead In: S86472.00[Default]
+Default Next Question: S86474.00
+--------------------------------------------------------------------------------
+S86475.00    [YTEL-11G]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             GOVERNMENT RESPONSIBLITY - REDUCE INCOME DIFFERENCES
+ 
+- reduce income differences between the rich and poor?
+ 
+UNIVERSE: R is in sample group 2
+ 
+NOTE: These next questions are about how you would like society to work.
+ 
+On the whole, do you think it should or should not be the government's 
+responsibility to...
+ 
+     576       1 Definitely should be
+     505       2 Probably should be
+     406       3 Probably should not be
+     288       4 Definitely should not be
+  -------
+    1775
+ 
+Refusal(-1)            7
+Don't Know(-2)       112
+TOTAL =========>    1894   VALID SKIP(-4)    5665     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                2.23
+ 
+Lead In: S86474.00[Default]
+Default Next Question: S86476.00
+--------------------------------------------------------------------------------
+S86478.00    [YTEL-11J]                                     Survey Year: 2006
+  PRIMARY VARIABLE
+
+ 
+             GOVERNMENT RESPONSIBLITY - PROTECT ENVIRONMENT
+ 
+- impose strict laws to make industry do less damage to the environment?
+ 
+UNIVERSE: R is in sample group 2
+ 
+NOTE: These next questions are about how you would like society to work.
+ 
+On the whole, do you think it should or should not be the government's 
+responsibility to...
+ 
+    1244       1 Definitely should be
+     533       2 Probably should be
+      55       3 Probably should not be
+      28       4 Definitely should not be
+  -------
+    1860
+ 
+Refusal(-1)            6
+Don't Know(-2)        28
+TOTAL =========>    1894   VALID SKIP(-4)    5665     NON-INTERVIEW(-5)    1425
+ 
+Min:              1        Max:              4        Mean:                1.39
+ 
+Lead In: S86477.00[Default]
+Default Next Question: S86482.00
